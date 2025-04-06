@@ -18,6 +18,6 @@ WHERE (salary_year_avg IS NOT NULL)
     AND (job_work_from_home = TRUE) 
     AND (job_schedule_type = 'Contractor')    -- This is for me as a European who can only work as a contractor.
     AND (job_title_short IN ('Data Analyst', 'Data Scientist'))
-    AND job_title NOT LIKE '%Senior%' AND job_title NOT LIKE '%Principal%' AND job_title NOT LIKE '%Lead%'    -- Removing all jobs that would likely not be suited for a entry-level guy like me
+--    AND job_title NOT LIKE '%Senior%' AND job_title NOT LIKE '%Principal%' AND job_title NOT LIKE '%Lead%'    -- Removing all jobs that would likely not be suited for a entry-level guy like me
 ORDER BY salary_year_avg DESC
 LIMIT 10;

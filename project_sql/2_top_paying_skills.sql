@@ -12,8 +12,9 @@ WITH top_paying_jobs AS (
     FROM job_postings_fact
     LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id
     WHERE (salary_year_avg IS NOT NULL) 
-        AND (job_work_from_home = TRUE) 
-        AND (job_title_short = 'Data Analyst')
+    AND (job_work_from_home = TRUE) 
+    AND (job_schedule_type = 'Contractor')    -- This is for me as a European who can only work as a contractor.
+    AND (job_title_short IN ('Data Analyst', 'Data Scientist'))
     ORDER BY salary_year_avg DESC
     LIMIT 10
     )
