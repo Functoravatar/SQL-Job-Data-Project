@@ -1,7 +1,7 @@
 # Introduction
 This project looks at job market data for tech jobs. We analyze various metrics, trying to identify what jobs pay the most, what skills are in high demand in this market, and what skills most strongly influence salaries.
 
-We did this using 5 SQL queries. You can find them here: [project folder](/Job%20Data%20Project//project_sql/)  
+We did this using 5 SQL queries. You can find them here: [project folder](\project_sql)  
 
 # Background
 This is my first data analysis project and it is based on Luke Barousse's YouTube tutorial (Thanks you!). The data used in this project also comes from his [course web site](https://lukebarousse.com/sql), which I highly recommend for anyone interested in this topic.
@@ -120,7 +120,7 @@ INNER JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
 
 The top skills required for the top-paying jobs are SQL, Python, R, Go, and Python.
 
-![Top Skills](/Job%20Data%20Project/assets/902a38c0.png)
+![Top Skills](assets\902a38c0.png)
 
 ### 3. What are the most in-demand skills for analysts?
 
