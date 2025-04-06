@@ -1,1 +1,2 @@
-Add contents later. For now this is only to test pulling updates to local repository.
+1. First part of the project: Analysis of top-paying jobs.
+
