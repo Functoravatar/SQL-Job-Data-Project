@@ -120,7 +120,7 @@ INNER JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
 
 The top skills required for the top-paying jobs are SQL, Python, R, Go, and Python.
 
-![Top Skills](assets\902a38c0.png)
+![Top Skills](/assets/902a38c0.png)
 
 ### 3. What are the most in-demand skills for analysts?
 
